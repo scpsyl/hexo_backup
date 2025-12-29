@@ -2,6 +2,8 @@
 
 基于 Hexo 的个人博客，使用 Next 主题，部署到阿里云 OSS。
 
+>关于环境的配置请参考相关教程，默认完成完整运行环境配置（Node.js、Hexo、Git 等）
+
 ## 首次配置（新机器）
 
 ### 1. 安装依赖
@@ -18,10 +20,12 @@ deploy:
   region: oss-ap-southeast-1
   accessKeyId: YOUR_ACCESS_KEY_ID
   accessKeySecret: YOUR_ACCESS_KEY_SECRET
-  bucket: scpsyl
+  bucket: YOUR_BUCKET_NAME
 ```
 
-将 `YOUR_ACCESS_KEY_ID` 和 `YOUR_ACCESS_KEY_SECRET` 替换为实际的阿里云 OSS 凭证。
+将 `YOUR_ACCESS_KEY_ID` ,`YOUR_ACCESS_KEY_SECRET`和`YOUR_BUCKET_NAME`替换为实际的阿里云 OSS 凭证。
+
+实际使用时需手动添加deploy信息到`_config.yml`中。
 
 ## 日常使用
 

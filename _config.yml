@@ -112,10 +112,15 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 ## Sensitive credentials are stored in _config.local.yml (not committed to git)
-deploy:
-  type: ali-oss
-  region: oss-ap-southeast-1
-  bucket: scpsyl
+
+# Add your deployment settings in _config.local.yml
+# deploy:
+#   type: ali-oss
+#   region: 
+#   bucket: 
+#   accessKeyId:
+#   accessKeySecret:
+
 
 symbols_count_time:
   symbols: true
