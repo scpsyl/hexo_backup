@@ -15,7 +15,7 @@
     "acorn": "^8.11.3",
     "css": "^3.0.0",
     "darkmode-js": "^1.5.7",
-    "hexo": "^6.3.0",
+    "hexo": "^8.1.1",
     "hexo-asset-image": "github:xcodebuild/hexo-asset-image",
     "hexo-deployer-ali-oss": "^1.0.0",
     "hexo-generator-archive": "^2.0.0",
